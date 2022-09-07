@@ -1,6 +1,12 @@
-# dunecon-workshop
+# Dune Con API Workshop
 
-Dune client tutorial for Dune Con 2022
+Tutorial for Dune Con 2022 on using Dune Analytics' officially supported API service.
+
+## Requirements
+
+**python >= 3.9**
+
+## Instructions
 
 1. **Clone this repo**
 
@@ -8,20 +14,20 @@ Dune client tutorial for Dune Con 2022
     git clone git@github.com:bh2smith/dunecon-workshop.git
     ```
 
-2. **Install `dune-client`**
+2. **Install Dune Client**
 
     ```shell
     pip install -r requirements.txt
     ```
-   note that this also comes along with `python-dotenv` for reading env files.
+   Note that this also comes along with `python-dotenv` for reading env files.
 
 3. **Create and .env file with `DUNE_API_KEY`**
 
     ```shell
-    touch .env
+    mv .env.sample .env
     ```
 
-   and append `DUNE_API_KEY=xxxxYOURxAPIxKEYxxx`
+   and add your `DUNE_API_KEY=xxxxYOURxAPIxKEYxxx` (slack vars can be left empty - but not removed)
 
 4. **Run the demo scripts**
 
@@ -40,6 +46,6 @@ Dune client tutorial for Dune Con 2022
       --query-config cfg
    ```
 
-   Note that
+   **Note that**
     - You would need to [create your own slackbot](https://api.slack.com/apps), but can use empty env vars for now.
     - There is an [open issue](https://github.com/cowprotocol/dune-alerts/issues/33) to integrate Twitter and Telegram.
