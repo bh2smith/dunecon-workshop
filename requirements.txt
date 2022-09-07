@@ -1,2 +1,2 @@
-dune-client==0.0.3
+dune-client==0.0.4
 python-dotenv==0.21.0
