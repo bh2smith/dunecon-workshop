@@ -2,6 +2,8 @@
 
 Tutorial for Dune Con 2022 on using Dune Analytics' officially supported API service.
 
+[Slides from presentation](https://docs.google.com/presentation/d/1w6KsA9UIYZt71psmYrxvB-0nVNcgMdn60sWFe1UlFlM/edit?usp=sharing)
+
 ## Requirements
 
 **python >= 3.9**
