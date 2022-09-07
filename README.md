@@ -49,3 +49,12 @@ Tutorial for Dune Con 2022 on using Dune Analytics' officially supported API ser
    **Note that**
     - You would need to [create your own slackbot](https://api.slack.com/apps), but can use empty env vars for now.
     - There is an [open issue](https://github.com/cowprotocol/dune-alerts/issues/33) to integrate Twitter and Telegram.
+
+6. Data Modeling and Scripting
+
+   Sample Query: https://dune.com/queries/1247366 (DuneV2 Engine)
+
+   Forked from Legacy: https://dune.com/queries/867367 (doesn't seem to agree)
+   ```shell
+   python -m 3-data-modeling
+   ```
