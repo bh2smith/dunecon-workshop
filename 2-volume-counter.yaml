@@ -1,0 +1,4 @@
+name: Trading Volume
+id: 1247175
+column: trading_volume
+alert_value: 10
