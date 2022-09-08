@@ -1,0 +1,4 @@
+name: CIP3 Subsidy
+id: 529638
+column: eth_spent
+alert_value: 55
